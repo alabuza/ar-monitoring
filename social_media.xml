@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Social Media Monitoring – Activist & AR-Related Accounts</title>
+    <link>https://example.com/</link>
+    <description>
+      Centralized list of Facebook, Instagram, LinkedIn, YouTube, and Twitter/X accounts 
+      relevant to animal research activism, protests, investigations, and watchdog monitoring.
+      All entries require manual checking due to lack of RSS support.
+    </description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Apr 2026 21:26:00 +0000</lastBuildDate>
+
+
+    <!-- ========================= -->
+    <!--  FACEBOOK PAGES (MANUAL)  -->
+    <!-- ========================= -->
+
+    <item><title>Dane4Dogs</title><link>https://www.facebook.com</link><guid>dane4dogs</guid><description>No RSS — manual check</description></item>
+
+    <item><title>The Marty Project</title><link>https://www.facebook.com/profile.php?id=61573188301611</link><guid>marty-project</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Kimberly Dennis</title><link>https://www.facebook.com/kim.dennis.3994</link><guid>kimberly-dennis</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Madeline Krasno</title><link>https://www.facebook.com/madelinekrasno</link><guid>madeline-krasno</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Chloe Leffakis (DxE / Ridglan)</title><link>https://www.facebook.com/chloe.leffakis</link><guid>chloe-leffakis</guid><description>No RSS — manual check</description></item>
+
+    <item><title>620 WTMJ (WI News)</title><link>https://www.facebook.com/620wtmj</link><guid>620wtmj</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Wayne Pacelle</title><link>https://www.facebook.com/wppacelle</link><guid>wayne-pacelle</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Michigan Pet Alliance</title><link>https://www.facebook.com/MichiganPetAlliance</link><guid>michigan-pet-alliance</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Wayne Hsiung</title><link>https://www.facebook.com/wayne.hsiung</link><guid>wayne-hsiung</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Rachel Kepnes</title><link>https://www.facebook.com</link><guid>rachel-kepnes</guid><description>No RSS — manual check</description></item>
+
+    <item><title>PETA – Facebook</title><link>https://www.facebook.com/peta</link><guid>peta-facebook</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Humane World – Research & Tox</title><link>https://www.facebook.com/humaneworldendanimaltesting</link><guid>humane-world-research</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Advancing Law for Animals</title><link>https://www.facebook.com/advancinglawforanimals.org</link><guid>advancing-law-animals</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Animal Rising (UK)</title><link>https://www.facebook.com/AnimalRising</link><guid>animal-rising</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Jane Unchained</title><link>https://www.facebook.com/janevelezmitchellhome</link><guid>jane-unchained</guid><description>No RSS — manual check</description></item>
+
+    <item><title>The Camp Beagle</title><link>https://www.facebook.com/thecampbeagle</link><guid>camp-beagle</guid><description>No RSS — manual check</description></item>
+
+    <item><title>CAARE</title><link>https://www.facebook.com/caareforanimals</link><guid>caare-facebook</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Alka (Activist)</title><link>https://www.facebook.com/alka1963</link><guid>alka-activist</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Maria Leonardi (Group)</title><link>https://www.facebook.com/groups/221529825341003/user/1261830014</link><guid>maria-leonardi</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Animal Rights Initiative</title><link>https://www.facebook.com/animalrightsinitiative</link><guid>animal-rights-initiative</guid><description>No RSS — manual check</description></item>
+
+    <item><title>The Beagle Alliance</title><link>https://www.facebook.com/thebeaglealliance</link><guid>beagle-alliance-facebook</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Pennsylvania Voters for America</title><link>https://www.facebook.com/profile.php?id=61560278284022</link><guid>pennsylvania-voters</guid><description>No RSS — manual check</description></item>
+
+
+    <!-- ========================= -->
+    <!--  OTHER SOCIAL PLATFORMS   -->
+    <!-- ========================= -->
+
+    <item><title>PETA SAO – LinkedIn</title><link>https://www.linkedin.com/company/petasao/posts/</link><guid>peta-sao-linkedin</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Animal Partisan – Instagram</title><link>https://www.instagram.com/animalpartisan/</link><guid>animal-partisan-instagram</guid><description>No RSS — manual check</description></item>
+
+
+    <!-- ========================= -->
+    <!--  TWITTER / X ACCOUNTS     -->
+    <!-- ========================= -->
+
+    <item><title>Crystal Heath (X)</title><link>https://x.com/drcrystalheath</link><guid>crystal-heath-x</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Marina Bolotnikova (X)</title><link>https://x.com/mbolotnikova</link><guid>marina-bolotnikova-x</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Action for Primates (X)</title><link>https://twitter.com/action4primates?lang=en</link><guid>action4primates-x</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Laura Loomer (X)</title><link>https://x.com/LauraLoomer</link><guid>laura-loomer-x</guid><description>No RSS — manual check</description></item>
+
+
+    <!-- ========================= -->
+    <!--  ACTIVIST GROUPS (FB)     -->
+    <!-- ========================= -->
+
+    <item><title>Stand Up Bainbridge, GA</title><link>https://www.facebook.com</link><guid>bainbridge-ga</guid><description>No RSS — manual check</description></item>
+
+    <item><title>CSU ROAR</title><link>https://www.facebook.com/groups/roarcsu</link><guid>csu-roar</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Action for Primates – Facebook</title><link>https://www.facebook.com</link><guid>action-for-primates-fb</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Humane Society International – Facebook</title><link>https://www.facebook.com</link><guid>hsi-facebook</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Nate (PETA)</title><link>https://www.facebook.com</link><guid>nate-peta</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Covid Bat Research Moratorium – Colorado</title><link>https://www.facebook.com</link><guid>covid-bat-moratorium</guid><description>No RSS — manual check</description></item>
+
+    <item><title>PETA2</title><link>https://www.facebook.com/peta2</link><guid>peta2</guid><description>No RSS — manual check</description></item>
+
+
+    <!-- ========================= -->
+    <!--  ACTIVISTS’ FACEBOOK 2    -->
+    <!-- ========================= -->
+
+    <item><title>Atlanta Animal Activists</title><link>https://www.facebook.com</link><guid>atlanta-animal-activists</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Beagle Freedom Project</title><link>https://www.facebook.com</link><guid>beagle-freedom-project</guid><description>No RSS — manual check</description></item>
+
+    <item><title>DxE Phoenix</title><link>https://www.facebook.com</link><guid>dxe-phoenix</guid><description>No RSS — manual check</description></item>
+
+    <item><title>DxE SF Area</title><link>https://www.facebook.com</link><guid>dxe-sf</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Laura Ray</title><link>https://www.facebook.com</link><guid>laura-ray</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Jonathan Horn</title><link>https://www.facebook.com</link><guid>jonathan-horn</guid><description>No RSS — manual check</description></item>
+
+    <item><title>NAAL</title><link>https://www.facebook.com</link><guid>naal-facebook</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Kindness Ranch Sanctuary</title><link>https://www.facebook.com/kindnessranch</link><guid>kindness-ranch</guid><description>No RSS — manual check</description></item>
+
+    <item><title>NY Farm Animal Save</title><link>https://www.facebook.com</link><guid>ny-farm-animal-save</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Lief Youngs (CSU Activist)</title><link>https://www.facebook.com/liefrunsfar/</link><guid>lief-youngs</guid><description>No RSS — manual check</description></item>
+
+
+    <!-- ========================= -->
+    <!--  ACTIVISTS’ FACEBOOK 3    -->
+    <!-- ========================= -->
+
+    <item><title>Animal Rights Initiative</title><link>https://www.facebook.com</link><guid>animal-rights-initiative-2</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Christopher Eubanks</title><link>https://www.facebook.com</link><guid>christopher-eubanks</guid><description>No RSS — manual check</description></item>
+
+    <item><title>NARN – Facebook</title><link>https://www.facebook.com</link><guid>narn-facebook</guid><description>No RSS — manual check</description></item>
+
+
+    <!-- ========================= -->
+    <!--  ACTIVISTS’ FACEBOOK 4    -->
+    <!-- ========================= -->
+
+    <item><title>PCRM – Facebook</title><link>https://www.facebook.com</link><guid>pcrm-facebook</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Progress for Science</title><link>https://www.facebook.com/ProgressForScience</link><guid>progress-for-science</guid><description>No RSS — manual check</description></item>
+
+    <item><title>SAEN – Facebook</title><link>https://www.facebook.com</link><guid>saen-facebook</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Texas Animal Freedom Fighters</title><link>https://www.facebook.com</link><guid>texas-animal-freedom</guid><description>No RSS — manual check</description></item>
+
+
+    <!-- ========================= -->
+    <!--  INSTAGRAM & YOUTUBE      -->
+    <!-- ========================= -->
+
+    <item><title>Lief Youngs – Instagram</title><link>https://www.instagram.com/liefrunsfar/</link><guid>lief-instagram</guid><description>No RSS — manual check</description></item>
+
+    <item><title>PETA – Campaign News</title><link>https://www.facebook.com</link><guid>peta-campaign-news</guid><description>No RSS — manual check</description></item>
+
+    <item><title>HSUS – YouTube</title><link>https://www.youtube.com/@HumaneSociety</link><guid>hsus-youtube</guid><description>No RSS — manual check</description></item>
+
+    <item><title>PETA – Instagram</title><link>https://www.instagram.com/peta/</link><guid>peta-instagram</guid><description>No RSS — manual check</description></item>
+
+    <item><title>PETA – YouTube</title><link>https://www.youtube.com/@peta</link><guid>peta-youtube</guid><description>No RSS — manual check</description></item>
+
+    <item><title>The Animal Pill – YouTube</title><link>https://www.youtube.com/@TheAnimalPill</link><guid>animal-pill-youtube</guid><description>No RSS — manual check</description></item>
+
+    <item><title>SHARK – YouTube</title><link>https://www.youtube.com/@SHARKonline</link><guid>shark-youtube</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Grace is Free – Instagram</title><link>https://www.instagram.com/grace_is_free_/</link><guid>grace-is-free</guid><description>No RSS — manual check</description></item>
+
+
+    <!-- ========================= -->
+    <!--  TRACKING AR PROTESTS     -->
+    <!-- ========================= -->
+
+    <item><title>Compassion for Nonhuman Animals – Events</title><link>https://www.facebook.com/profile.php?id=61576991082498&sk=events</link><guid>compassion-nonhuman-events</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Facebook Search – “animal rights”</title><link>https://www.facebook.com</link><guid>fb-animal-rights-search</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Protest for Animal Rights</title><link>https://www.facebook.com/ProtestforAnimalRights</link><guid>protest-animal-rights</guid><description>No RSS — manual check</description></item>
+
+    <item><title>DxE – Events</title><link>https://www.facebook.com/directactioneverywhere/events</link><guid>dxe-events</guid><description>No RSS — manual check</description></item>
+
+    <item><title>Beagle Adoption Rescue – Events</title><link>https://www.facebook.com/groups/beagleadoptionrescue/events</link><guid>beagle-adoption-events</guid><description>No RSS — manual check</description></item>
+
+    <item><title>NARN – Events</title><link>https://www.facebook.com/NorthwestAnimalRightsNetwork/events</link><guid>narn-events</guid><description>No RSS — manual check</description></item>
+
+  </channel>
+</rss>

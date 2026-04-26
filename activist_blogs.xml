@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Activist Blogs</title>
+    <link>https://example.com/</link>
+    <description>Aggregated activist blogs, campaigns, and event listings related to animal rights and animal research issues.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Apr 2026 21:02:00 +0000</lastBuildDate>
+
+
+    <!-- ========================= -->
+    <!--  REAL RSS FEEDS INCLUDED  -->
+    <!-- ========================= -->
+
+    <item>
+      <title>A Humane World – HSUS</title>
+      <link>https://blog.humanesociety.org/feed/</link>
+      <guid>hsus-a-humane-world</guid>
+      <description>HSUS blog feed</description>
+    </item>
+
+    <item>
+      <title>Citizens for Alternatives to Animal Research – Action Alerts</title>
+      <link>https://www.caareusa.org/action_alerts?format=rss</link>
+      <guid>caare-action-alerts</guid>
+      <description>CAARE Action Alerts RSS feed</description>
+    </item>
+
+    <item>
+      <title>Direct Action Everywhere – News</title>
+      <link>https://www.directactioneverywhere.com/news?format=rss</link>
+      <guid>dxe-news</guid>
+      <description>DxE News RSS feed</description>
+    </item>
+
+    <item>
+      <title>NARN – News</title>
+      <link>https://narn.org/category/news/feed/</link>
+      <guid>narn-news</guid>
+      <description>NARN News RSS feed</description>
+    </item>
+
+    <item>
+      <title>The Simple Heart – Wayne Hsiung (Substack)</title>
+      <link>https://simpleheart.substack.com/feed</link>
+      <guid>simple-heart</guid>
+      <description>Substack feed for Wayne Hsiung</description>
+    </item>
+
+    <item>
+      <title>Our Honor – Blog</title>
+      <link>https://www.ourhonor.org/blog?format=rss</link>
+      <guid>our-honor-blog</guid>
+      <description>Our Honor blog RSS feed</description>
+    </item>
+
+    <item>
+      <title>APEX Advocacy – Blog</title>
+      <link>https://www.apexadvocacy.org/blog?format=rss</link>
+      <guid>apex-advocacy-blog</guid>
+      <description>APEX Advocacy blog RSS feed</description>
+    </item>
+
+
+    <!-- ===================================== -->
+    <!--  SITES WITHOUT RSS (MANUAL CHECK ONLY) -->
+    <!-- ===================================== -->
+
+    <item>
+      <title>NARN – Upcoming Events</title>
+      <link>https://narn.org/events/</link>
+      <guid>narn-events</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>Harvard Animal Law & Policy Clinic</title>
+      <link>https://animal.law.harvard.edu/</link>
+      <guid>harvard-animal-law</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>SHARK – Investigations & Campaigns</title>
+      <link>https://sharkonline.org/</link>
+      <guid>shark-investigations</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>SOS Actions – Students Opposing Speciesism</title>
+      <link>https://www.peta.org/action/sos-actions/</link>
+      <guid>sos-actions</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>North American Animal Liberation Press Office</title>
+      <link>https://animalliberationpressoffice.org/NAALPO/?am_force_theme_layout=desktop</link>
+      <guid>naalpo</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>Animal Methods Bias – Events (COLAAB)</title>
+      <link>https://www.animalmethodsbias.org/events</link>
+      <guid>animal-methods-bias-events</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>UMass-Amherst – Charles River Campus</title>
+      <link>https://www.umass.edu/</link>
+      <guid>umass-charles-river</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>Mt. Ida College (UMass Amherst request)</title>
+      <link>https://www.umass.edu/mtida/</link>
+      <guid>mt-ida</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+  </channel>
+</rss>

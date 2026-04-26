@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Federal Science & Policy Updates</title>
+    <link>https://example.com/</link>
+    <description>Aggregated federal policy, grants, FOIA, and science-agency updates relevant to biomedical research and oversight.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Apr 2026 21:13:00 +0000</lastBuildDate>
+
+
+    <!-- ========================= -->
+    <!--  REAL RSS FEEDS INCLUDED  -->
+    <!-- ========================= -->
+
+    <item>
+      <title>NIH Extramural Nexus News</title>
+      <link>https://grants.nih.gov/news-events/nih-extramural-nexus-news/feed</link>
+      <guid>nih-extramural-nexus</guid>
+      <description>NIH Extramural Nexus RSS feed</description>
+    </item>
+
+    <item>
+      <title>NIH Guide for Grants & Contracts</title>
+      <link>https://grants.nih.gov/grants/guide/rss.xml</link>
+      <guid>nih-guide-grants</guid>
+      <description>NIH Guide for Grants and Contracts RSS feed</description>
+    </item>
+
+    <item>
+      <title>NIH News Releases</title>
+      <link>https://www.nih.gov/news-events/news-releases/feed</link>
+      <guid>nih-news-releases</guid>
+      <description>NIH News Releases RSS feed</description>
+    </item>
+
+    <item>
+      <title>NSF – Office of the Director Updates</title>
+      <link>https://www.nsf.gov/od/updates/rss.jsp</link>
+      <guid>nsf-od-updates</guid>
+      <description>NSF Office of the Director updates RSS feed</description>
+    </item>
+
+    <item>
+      <title>NSF – General News</title>
+      <link>https://www.nsf.gov/news/rss/rss_news.jsp</link>
+      <guid>nsf-general-news</guid>
+      <description>NSF general news RSS feed</description>
+    </item>
+
+    <item>
+      <title>NSF – National Science Board</title>
+      <link>https://www.nsf.gov/nsb/rss.jsp</link>
+      <guid>nsb-updates</guid>
+      <description>National Science Board RSS feed</description>
+    </item>
+
+    <item>
+      <title>USDA – Press Releases</title>
+      <link>https://www.usda.gov/media/press-releases/feed</link>
+      <guid>usda-press-releases</guid>
+      <description>USDA press releases RSS feed</description>
+    </item>
+
+    <item>
+      <title>USDA APHIS – News</title>
+      <link>https://www.aphis.usda.gov/news/rss.xml</link>
+      <guid>aphis-news</guid>
+      <description>USDA APHIS news RSS feed</description>
+    </item>
+
+    <item>
+      <title>FDA – Press Announcements</title>
+      <link>https://www.fda.gov/news-events/fda-newsroom/press-announcements/rss.xml</link>
+      <guid>fda-press-announcements</guid>
+      <description>FDA press announcements RSS feed</description>
+    </item>
+
+    <item>
+      <title>FDA CVM Updates</title>
+      <link>https://www.fda.gov/animal-veterinary/news-events/cvm-updates/rss.xml</link>
+      <guid>fda-cvm-updates</guid>
+      <description>FDA Center for Veterinary Medicine updates RSS feed</description>
+    </item>
+
+    <item>
+      <title>Pew Research – Trust in Science</title>
+      <link>https://www.pewresearch.org/topic/science/trust-in-science/feed/</link>
+      <guid>pew-trust-in-science</guid>
+      <description>Pew Research Center: Trust in Science RSS feed</description>
+    </item>
+
+
+    <!-- ===================================== -->
+    <!--  SITES WITHOUT RSS (MANUAL CHECK ONLY) -->
+    <!-- ===================================== -->
+
+    <item>
+      <title>White House – Presidential Actions</title>
+      <link>https://www.whitehouse.gov/presidential-actions/</link>
+      <guid>white-house-presidential-actions</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>USDA APHIS – FOIA Logs</title>
+      <link>https://www.aphis.usda.gov/foia</link>
+      <guid>aphis-foia-logs</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>Grants.gov – HHS/NIH Posted Date (Sorted)</title>
+      <link>https://simpler.grants.gov/search?utm_source=Grants.gov&sortby=postedDateDesc&agency=HHS-NIH11</link>
+      <guid>grants-gov-nih</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>USDA Guidance Documents (Agency 7990)</title>
+      <link>https://www.usda.gov/guidance?f%5B0%5D=issuing_agency%3A7990</link>
+      <guid>usda-guidance-7990</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>EPA – News Releases Search</title>
+      <link>https://www.epa.gov/newsreleases/search</link>
+      <guid>epa-news-releases</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>Defense Digital Thread (DoD Tech) – FORCE DSC</title>
+      <link>https://force-dsc.my.site.com/ddt/s/</link>
+      <guid>force-dsc</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+  </channel>
+</rss>

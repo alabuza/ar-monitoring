@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AR News Releases</title>
+    <link>https://example.com/</link>
+    <description>Aggregated sources tracking animal research–related news, activism, and policy developments.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Apr 2026 20:56:00 +0000</lastBuildDate>
+
+
+    <!-- ========================= -->
+    <!--  REAL RSS FEEDS INCLUDED  -->
+    <!-- ========================= -->
+
+    <item>
+      <title>PETA Action Alerts</title>
+      <link>https://www.peta.org/action/action-alerts/feed/</link>
+      <guid>peta-action-alerts</guid>
+      <description>PETA Action Alerts RSS feed</description>
+    </item>
+
+    <item>
+      <title>PETA Media Center – News Releases</title>
+      <link>https://www.peta.org/media/news-releases/feed/</link>
+      <guid>peta-media-news</guid>
+      <description>PETA Media Center News Releases RSS feed</description>
+    </item>
+
+    <item>
+      <title>PCRM News Releases</title>
+      <link>https://www.pcrm.org/news/rss.xml</link>
+      <guid>pcrm-news</guid>
+      <description>PCRM News Releases RSS feed</description>
+    </item>
+
+    <item>
+      <title>PCRM “Good Science” Press Releases</title>
+      <link>https://www.pcrm.org/good-science/feed</link>
+      <guid>pcrm-good-science</guid>
+      <description>PCRM Good Science press releases</description>
+    </item>
+
+    <item>
+      <title>Rise for Animals – News Archive</title>
+      <link>https://riseforanimals.org/news/feed/</link>
+      <guid>rise-for-animals</guid>
+      <description>Rise for Animals news RSS feed</description>
+    </item>
+
+    <item>
+      <title>ALDF News</title>
+      <link>https://aldf.org/articles/?article_type=news&amp;feed=rss2</link>
+      <guid>aldf-news</guid>
+      <description>Animal Legal Defense Fund news RSS feed</description>
+    </item>
+
+    <item>
+      <title>Tracy K Substack</title>
+      <link>https://tracyk.substack.com/feed</link>
+      <guid>tracyk-substack</guid>
+      <description>Substack feed for Tracy K</description>
+    </item>
+
+    <item>
+      <title>World Animal News</title>
+      <link>https://worldanimalnews.com/feed/</link>
+      <guid>world-animal-news</guid>
+      <description>World Animal News RSS feed</description>
+    </item>
+
+    <item>
+      <title>Animals 24-7</title>
+      <link>https://www.animals24-7.org/feed/</link>
+      <guid>animals-24-7</guid>
+      <description>Animals 24-7 RSS feed</description>
+    </item>
+
+    <item>
+      <title>Animal Wellness Action – Press Releases</title>
+      <link>https://animalwellnessaction.org/press-releases/feed/</link>
+      <guid>animal-wellness-action</guid>
+      <description>Animal Wellness Action press releases</description>
+    </item>
+
+    <item>
+      <title>HumaneWatch</title>
+      <link>https://humanewatch.org/feed/</link>
+      <guid>humanewatch</guid>
+      <description>HumaneWatch RSS feed</description>
+    </item>
+
+
+    <!-- ===================================== -->
+    <!--  SITES WITHOUT RSS (MANUAL CHECK ONLY) -->
+    <!-- ===================================== -->
+
+    <item>
+      <title>SAEN – Media Coverage</title>
+      <link>https://www.saenonline.org/media-coverage/</link>
+      <guid>saen-media</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>Camp Beagle – Home</title>
+      <link>https://www.campbeagle.com/</link>
+      <guid>camp-beagle</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>ARLO – Animal Research Laboratory Overview</title>
+      <link>https://arlo.org/records/</link>
+      <guid>arlo-records</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>Channel3000 (WI local news)</title>
+      <link>https://www.channel3000.com/</link>
+      <guid>channel3000</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>Action for Primates</title>
+      <link>https://actionforprimates.org/</link>
+      <guid>action-for-primates</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>PETA Science Advancement & Outreach Division – Resources</title>
+      <link>https://www.scienceadvancement.org/resources/</link>
+      <guid>peta-science-advancement</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+    <item>
+      <title>The Beagle Alliance – Campaigns</title>
+      <link>https://thebeaglealliance.org/campaigns/</link>
+      <guid>beagle-alliance</guid>
+      <description>No RSS available — manual check</description>
+    </item>
+
+  </channel>
+</rss>

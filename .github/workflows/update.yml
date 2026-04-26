@@ -1,0 +1,93 @@
+name: Update Filtered RSS Feed
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # runs every hour
+  workflow_dispatch:       # allows manual runs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+
+    - name: Install dependencies
+      run: |
+        pip install feedparser feedgen
+
+    - name: Filter combined RSS feed with keyword tags
+      run: |
+        python3 << 'EOF'
+        import feedparser
+        from feedgen.feed import FeedGenerator
+
+        # --- Source feeds ---
+        feeds = [
+            "activist_blogs.xml",
+            "ar_news.xml",
+            "federal_policy.xml",
+            "social_media.xml"
+        ]
+
+        # --- Final keyword list ---
+        keywords = [
+            "primates",
+            "non-human primates",
+            "beagles",
+            "animal research",
+            "animal rights protests",
+            "animal experiments",
+            "animal testing",
+            "dog experiments",
+            "breeding",
+            "NAMs",
+            "animal model",
+            "Paula Clifford",
+            "Naomi Charalambakis"
+        ]
+
+        # --- Build filtered feed ---
+        fg = FeedGenerator()
+        fg.title("Filtered Animal Research Monitoring Feed")
+        fg.link(href="https://github.com/YOUR_USERNAME/YOUR_REPO")
+        fg.description("Unified feed filtered by targeted keywords, with match tags.")
+
+        for feed_path in feeds:
+            parsed = feedparser.parse(feed_path)
+            for entry in parsed.entries:
+                content = " ".join([
+                    entry.get("title", ""),
+                    entry.get("summary", ""),
+                    entry.get("description", "")
+                ]).lower()
+
+                # Find ALL matching keywords
+                matched = [k for k in keywords if k.lower() in content]
+
+                if matched:
+                    fe = fg.add_entry()
+                    fe.title(entry.get("title", ""))
+                    fe.link(href=entry.get("link", ""))
+                    fe.description(entry.get("summary", ""))
+
+                    # Add keyword tags
+                    for m in matched:
+                        fe.category(term=m)
+
+        fg.rss_file("filtered_feed.xml")
+        EOF
+
+    - name: Commit filtered feed
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add filtered_feed.xml
+        git commit -m "Update filtered RSS feed" || echo "No changes to commit"
+        git push

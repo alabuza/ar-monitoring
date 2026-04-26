@@ -1,0 +1,71 @@
+name: Debug All Feeds (Unfiltered)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+
+    - name: Install dependencies
+      run: |
+        pip install feedparser feedgen requests
+
+    - name: Generate unfiltered debug feeds
+      run: |
+        cat > script.py << 'PYEOF'
+        import feedparser
+        import requests
+        from feedgen.feed import FeedGenerator
+
+        with open("feeds.txt") as f:
+            urls = [line.strip() for line in f if line.strip()]
+
+        print(f"Loaded {len(urls)} URLs")
+
+        for url in urls:
+            print(f"\nFetching: {url}")
+            try:
+                data = requests.get(url, timeout=10).content
+                parsed = feedparser.parse(data)
+            except Exception as e:
+                print(f"Error fetching {url}: {e}")
+                continue
+
+            print(f"Parsed {len(parsed.entries)} entries")
+
+            fg = FeedGenerator()
+            fg.title(f"Unfiltered feed for {url}")
+            fg.link(href=url)
+            fg.description("Raw feed dump for debugging")
+
+            for entry in parsed.entries:
+                fe = fg.add_entry()
+                fe.title(entry.get("title", ""))
+                fe.link(href=entry.get("link", ""))
+                fe.description(entry.get("summary", ""))
+
+            safe_name = url.replace("https://", "").replace("/", "_")
+            filename = f"debug_{safe_name}.xml"
+            fg.rss_file(filename)
+            print(f"Wrote {filename}")
+        PYEOF
+
+        python3 script.py
+
+    - name: Commit debug feeds
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add debug_*.xml || true
+        git commit -m "Add unfiltered debug feeds" || echo "No changes to commit"
+        git push

@@ -24,12 +24,11 @@ jobs:
 
     - name: Generate filtered feed from live URLs
       run: |
-        python3 << 'EOF'
+        cat > script.py << 'PYEOF'
         import feedparser
         import requests
         from feedgen.feed import FeedGenerator
 
-        # Load feed URLs from feeds.txt
         with open("feeds.txt") as f:
             urls = [line.strip() for line in f if line.strip()]
 
@@ -51,7 +50,7 @@ jobs:
 
         fg = FeedGenerator()
         fg.title("Filtered Animal Research Monitoring Feed")
-        fg.link(href="https://github.com/YOUR_USERNAME/ar-monitoring")
+        fg.link(href="https://github.com/alabuza/ar-monitoring")
         fg.description("Live feed filtered by targeted keywords.")
 
         for url in urls:
@@ -80,7 +79,10 @@ jobs:
                         fe.category(term=m)
 
         fg.rss_file("filtered_feed.xml")
-        EOF
+        PYEOF
+
+        python3 script.py
+
 
     - name: Commit filtered feed
       run: |
